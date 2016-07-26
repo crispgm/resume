@@ -1,0 +1,68 @@
+html{
+  width: 100%;
+}
+body{
+  text-align: center;
+  width: 100%;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
+}
+.font-light{
+  color: #bbbbbb;
+}
+.font-mid{
+  color: #333333;
+}
+.container{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.fullname{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contact{
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 32px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+.contact-item{
+  margin-right: 16px;
+}
+.section{
+  margin-top: 24px;
+  padding-left: 36px;
+}
+.section-title{
+  font-size: 24px;
+  border-left: 4px solid #bbbbbb;
+  padding-left: 12px;
+}
+.section-content{
+  margin-top: 16px;
+  padding-left: 16px;
+}
+.block{
+  margin-bottom: 16px;
+}
+.block-title{
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.block-subtitle{
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #bbbbbb;
+}
+.block-content{
+  font-size: 14px;
+}
