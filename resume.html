@@ -6,28 +6,28 @@ permalink: /resume.html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ site.title }}</title>
+    <title>{{ site.data.resume.title }}</title>
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/opensans.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/resume.css">
   </head>
   <body>
     <div class="container">
       <div class="fullname">
-        {{ site.name }}
+        {{ site.data.resume.name }}
       </div>
       <div class="contact font-mid">
         <div class="contact-item">
-          <i class="fa fa-envelope aria-hidden="true></i> {{ site.email }}
+          <i class="fa fa-envelope aria-hidden="true></i> {{ site.data.resume.email }}
         </div>
         <div class="contact-item">
-          <i class="fa fa-phone-square aria-hidden="true></i> {{ site.phone }}
+          <i class="fa fa-phone-square aria-hidden="true></i> {{ site.data.resume.phone }}
         </div>
         <div class="contact-item">
-          <i class="fa fa-globe aria-hidden="true></i> {{ site.website }}
+          <i class="fa fa-globe aria-hidden="true></i> {{ site.data.resume.website }}
         </div>
         <div class="contact-item">
-          <i class="fa fa-github aria-hidden="true></i> github.com/{{ site.github_username }}
+          <i class="fa fa-github aria-hidden="true></i> github.com/{{ site.data.resume.github }}
         </div>
       </div>
       <div class="section">
