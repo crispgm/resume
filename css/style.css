@@ -66,3 +66,10 @@ body{
 .block-content{
   font-size: 14px;
 }
+footer{
+  font-size: 12px;
+}
+footer a{
+  text-decoration: underline;
+  color: #aaaaaa;
+}

@@ -6,7 +6,7 @@ permalink: /resume.html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Résumé | DAVID ZHANG</title>
+    <title>{{ site.title }}</title>
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/opensans.css">
     <link rel="stylesheet" href="/css/style.css">
@@ -14,20 +14,20 @@ permalink: /resume.html
   <body>
     <div class="container">
       <div class="fullname">
-        DAVID ZHANG
+        {{ site.name }}
       </div>
       <div class="contact font-mid">
         <div class="contact-item">
-          <i class="fa fa-envelope aria-hidden="true></i> crispgm@gmail.com
+          <i class="fa fa-envelope aria-hidden="true></i> {{ site.email }}
         </div>
         <div class="contact-item">
-          <i class="fa fa-phone-square aria-hidden="true></i> (+86)15652998660
+          <i class="fa fa-phone-square aria-hidden="true></i> {{ site.phone }}
         </div>
         <div class="contact-item">
-          <i class="fa fa-globe aria-hidden="true></i> crispgm.com
+          <i class="fa fa-globe aria-hidden="true></i> {{ site.website }}
         </div>
         <div class="contact-item">
-          <i class="fa fa-github aria-hidden="true></i> github.com/crispgm
+          <i class="fa fa-github aria-hidden="true></i> github.com/{{ site.github_username }}
         </div>
       </div>
       <div class="section">
@@ -35,28 +35,19 @@ permalink: /resume.html
           EDUCATION
         </div>
         <div class="section-content">
+          {% for edu in site.data.resume.education %}
           <div class="block">
             <div class="block-title">
-              Queensland University of Technology
+              {{ edu.university }}
             </div>
             <div class="block-subtitle">
-              Jul 2011 - Dec 2012 | Brisbane, QLD, Australia
+              {{ edu.duration }} | {{ edu.location }}
             </div>
             <div class="block-content">
-              Master of Information Technology - Software Architecture.
+              {{ edu.major }}
             </div>
           </div>
-          <div class="block">
-            <div class="block-title">
-              Southeast University
-            </div>
-            <div class="block-subtitle">
-              Aug 2007 - Jun 2011 | Nanjing, Jiangsu Province, China
-            </div>
-            <div class="block-content">
-              Bachelor of Computer Science & Technology.
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
 
@@ -65,38 +56,16 @@ permalink: /resume.html
           SKILLS
         </div>
         <div class="section-content">
+          {% for skill in site.data.resume.skills %}
           <div class="block">
             <div class="block-subtitle">
-              LAMP Stacks
+              {{ skill.title }}
             </div>
             <div class="block-content">
-              PHP/hhvm, Ruby, Nginx, MySQL, Memcache, Redis
+              {{ skill.items }}
             </div>
           </div>
-          <div class="block">
-            <div class="block-subtitle">
-              Web Architectures
-            </div>
-            <div class="block-content">
-              Micro-service Architecture, Distributing Web Architecture, Design Patterns
-            </div>
-          </div>
-          <div class="block">
-            <div class="block-subtitle">
-              Computer Systems
-            </div>
-            <div class="block-content">
-              UNIX/Linux, Shell, awk, git
-            </div>
-          </div>
-          <div class="block">
-            <div class="block-subtitle">
-              Frontend
-            </div>
-            <div class="block-content">
-              JavaScript, HTML, CSS
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
 
@@ -105,40 +74,19 @@ permalink: /resume.html
           WORK EXPERIENCE
         </div>
         <div class="section-content">
+          {% for exp in site.data.resume.work_exp %}
           <div class="block">
             <div class="block-title">
-              Software Architect
+              {{ exp.title }}
             </div>
             <div class="block-subtitle">
-              Apr 2016 - Now | Baidu Inc.
+              {{ exp.duration }} | {{ exp.company }}
             </div>
             <div class="block-content">
-              Worked as software architect for Medical Services Division.
+              {{ exp.description }}
             </div>
           </div>
-          <div class="block">
-            <div class="block-title">
-              Software Engineer
-            </div>
-            <div class="block-subtitle">
-              Apr 2013 - Mar 2016 | Baidu Inc.
-            </div>
-            <div class="block-content">
-              Worked as software engineer and later senior software engineer for Tieba Division(tieba.baidu.com), which is one of the largest online forum in China.
-            </div>
-          </div>
-          <div class="block">
-            <div class="block-title">
-              Developer Intern
-            </div>
-            <div class="block-subtitle">
-              Dec 2011  - Mar 2012 | Taikang Life Insurance Company Ltd.
-            </div>
-            <div class="block-content">
-              Worked as software developer to build internal software systems for Shenzhen branch of Taikang.
-              I contributed largely to the Attendent System for Training.
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
 
@@ -147,31 +95,25 @@ permalink: /resume.html
           PROJECTS
         </div>
         <div class="section-content">
+          {% for project in site.data.resume.projects %}
           <div class="block">
             <div class="block-title">
-              Jekyll
+              {{ project.name }}
             </div>
             <div class="block-subtitle">
-              Jul 2011 - Dec 2012 | Brisbane, QLD, Australia
+              {{ project.description }}
             </div>
             <div class="block-content">
-              Master of Information Technology - Software Architecture.
+              {{ project.contribution }}
             </div>
           </div>
-          <div class="block">
-            <div class="block-title">
-              Olympia
-            </div>
-            <div class="block-subtitle">
-              Jul 2011 - Dec 2012 | Brisbane, QLD, Australia
-            </div>
-            <div class="block-content">
-              Master of Information Technology - Software Architecture.
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
 
     </div>
+    <footer>
+      Résumé made with <i class="fa fa-heart aria-hidden="true></i> by David Zhang. <a href="https://github.com/crispgm/resume">GitHub</a>
+    </footer>
   </body>
 </html>

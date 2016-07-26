@@ -1,0 +1,41 @@
+education:
+  - university: Queensland University of Technology
+    duration: Jul 2011 - Dec 2012
+    location: Brisbane, QLD, Australia
+    major: Master of Information Technology - Software Architecture.
+  - university: Southeast University
+    duration: Aug 2007 - Jun 2011
+    location: Nanjing, Jiangsu Province, China
+    major: Bachelor of Computer Science & Technology.
+skills:
+  - title: LAMP Stacks
+    items: PHP/hhvm, Ruby, Nginx, MySQL, Memcache, Redis
+  - title: Web Architectures
+    items: Micro-service Architecture, Distributing Web Architecture, Design Patterns
+  - title: Computer Systems
+    items: UNIX/Linux, Shell, awk, git
+  - title: Frontend
+    items: JavaScript, HTML, CSS
+work_exp:
+  - title: Software Architect
+    duration: Apr 2016 - Now
+    company: Baidu Inc.
+    description: Worked as software architect for Medical Services Division.
+  - title: Software Engineer
+    duration: Apr 2013 - Mar 2016
+    company: Baidu Inc.
+    description: Worked as software engineer and later senior software engineer for Tieba Division(tieba.baidu.com), which is one of the largest online forum in China.
+  - title: Developer Intern
+    duration: Dec 2011 - Mar 2012
+    company: Taikang Life Insurance Company Ltd.
+    description: Worked as software developer to build internal software systems for Shenzhen branch of Taikang. I contributed largely to the Attendent System for Training.
+projects:
+  - name: Jekyll
+    description: Jekyll is a blog-aware, static site generator in Ruby.
+    contribution: As a collaborator, I have submitted 3 PRs and been accepted by Jekyll team, ranked as 31st. And I maintains 3 Jekyll plugins and a Jekyll theme.
+  - name: URL Auto Redirector
+    description: URL Auto Redirector is a chrome extension that enables you to skip certain pages, mostly useless referral/ad pages, after you click on affiliate links. By doing so, it gets you directly to your destination page.
+    contribution: Creator and maintainer.
+  - name: Olympia
+    description: Olympia hacks on Wi-Fi of Olympus cameras, which is hoped to offer a smart management of photos between camera and computer with a good experience.
+    contribution: Creator and maintainer. 
