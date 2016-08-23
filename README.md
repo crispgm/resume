@@ -24,7 +24,7 @@ You can config all the data in YAML and make it your own résumé. Then, you mig
 
 3. Config your résumé data
 
-    The basic information and contact information will be set in ```_config.yml```. And your __EDUCATION__, __SKILLS__, __WORK EXPERIENCE__, and __PROJECTS__ data will be set in ```_data/_resume.yml```.
+    The basic information and contact information will be set in ```_config.yml```. And your __EDUCATION__, __SKILLS__, __WORK EXPERIENCE__, and __PROJECTS__ data will be set in ```_data/resume.yml```.
 
 4. Run and Debug
 
