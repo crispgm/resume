@@ -1,9 +1,14 @@
 title: Résumé | DAVID ZHANG
 name: DAVID ZHANG
-email: crispgm@gmail.com
-phone: (+86)15652998660
-website: crispgm.com
-github: crispgm
+contact:
+  - icon: fa-envelope
+    text: crispgm@gmail.com
+  - icon: fa-phone-square
+    text: (+86)15652998660
+  - icon: fa-globe
+    text: crispgm.com
+  - icon: fa-github
+    text: crispgm
 education:
   - university: Queensland University of Technology
     duration: Jul 2011 - Dec 2012

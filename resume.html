@@ -17,18 +17,11 @@ permalink: /resume.html
         {{ site.data.resume.name }}
       </div>
       <div class="contact font-mid">
+        {% for item in site.data.resume.contact %}
         <div class="contact-item">
-          <i class="fa fa-envelope aria-hidden="true></i> {{ site.data.resume.email }}
+          <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
         </div>
-        <div class="contact-item">
-          <i class="fa fa-phone-square aria-hidden="true></i> {{ site.data.resume.phone }}
-        </div>
-        <div class="contact-item">
-          <i class="fa fa-globe aria-hidden="true></i> {{ site.data.resume.website }}
-        </div>
-        <div class="contact-item">
-          <i class="fa fa-github aria-hidden="true></i> github.com/{{ site.data.resume.github }}
-        </div>
+        {% endfor %}
       </div>
       <div class="section">
         <div class="section-title">
