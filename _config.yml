@@ -3,3 +3,4 @@ baseurl: ""
 exclude:
   - README.md
   - LICENSE
+  - .gitignore
