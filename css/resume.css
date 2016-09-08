@@ -1,3 +1,12 @@
+html {
+  width: 100%;
+  font-size: 16px;
+}
+@media (max-width: 48rem) {
+  html {
+    font-size: 12px;
+  }
+}
 html{
   width: 100%;
 }
@@ -5,6 +14,15 @@ body{
   text-align: center;
   width: 100%;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
+  font-size: 1rem;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #08c;
+}
+a:hover {
+  text-decoration: underline;
 }
 .font-light{
   color: #bbbbbb;
@@ -13,63 +31,80 @@ body{
   color: #333333;
 }
 .container{
-  width: 800px;
+  max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  margin-bottom: 48px;
+  margin-bottom: 4rem;
+}
+@media (max-width: 48rem) {
+  .container{
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
 }
 .fullname{
   text-align: center;
-  font-size: 45px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  font-size: 3.2rem;
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
 }
 .contact{
-  border-top: 1px solid #bbbbbb;
-  border-bottom: 1px solid #bbbbbb;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-bottom: 32px;
-  font-size: 14px;
+  border-top: .05rem solid #bbbbbb;
+  border-bottom: .05rem solid #bbbbbb;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+  margin-bottom: 2.8rem;
+  font-size: .9rem;
   display: flex;
   justify-content: center;
 }
+@media (max-width: 48rem) {
+  .contact{
+    display: block;
+  }
+  .contact-item{
+    padding-top: .2rem;
+    padding-left: .4rem;
+  }
+}
 .contact-item{
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 .section{
   margin-top: 24px;
   padding-left: 36px;
 }
+@media (max-width: 48rem) {
+  .section {
+    padding-left: .4rem;
+  }
+}
 .section-title{
-  font-size: 24px;
-  border-left: 4px solid #bbbbbb;
-  padding-left: 12px;
+  font-size: 1.6rem;
+  border-left: .2rem solid #bbbbbb;
+  padding-left: .8rem;
 }
 .section-content{
-  margin-top: 16px;
-  padding-left: 16px;
+  margin-top: 1rem;
+  padding-left: 1rem;
 }
 .block{
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .block-title{
-  font-size: 18px;
-  margin-bottom: 4px;
+  font-size: 1.1rem;
+  margin-bottom: .05rem;
 }
 .block-subtitle{
-  font-size: 12px;
-  margin-bottom: 4px;
+  font-size: .8rem;
+  margin-bottom: .05rem;
   color: #bbbbbb;
 }
 .block-content{
-  font-size: 14px;
+  font-size: .9rem;
 }
 footer{
-  font-size: 12px;
-}
-footer a{
-  text-decoration: underline;
-  color: #aaaaaa;
+  font-size: .8rem;
+  margin-left: 0;
 }
