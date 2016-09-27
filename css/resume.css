@@ -13,9 +13,11 @@ html{
 body{
   text-align: center;
   width: 100%;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Open Sans';
   font-size: 1rem;
   margin: 0;
+  color: #222;
+  background-color: #fbfbfb;
 }
 a {
   text-decoration: none;
@@ -48,6 +50,7 @@ a:hover {
   font-size: 3.2rem;
   padding-top: 2.8rem;
   padding-bottom: 2.8rem;
+  letter-spacing: .5rem;
 }
 .contact{
   border-top: .05rem solid #bbbbbb;
@@ -72,8 +75,8 @@ a:hover {
   margin-right: 1rem;
 }
 .section{
-  margin-top: 24px;
-  padding-left: 36px;
+  margin-top: 2rem;
+  padding-left: 2.6rem;
 }
 @media (max-width: 48rem) {
   .section {
@@ -84,6 +87,7 @@ a:hover {
   font-size: 1.6rem;
   border-left: .2rem solid #bbbbbb;
   padding-left: .8rem;
+  letter-spacing: .2rem;
 }
 .section-content{
   margin-top: 1rem;
