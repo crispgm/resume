@@ -62,7 +62,7 @@ a:hover {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 48rem) {
+@media (print and max-width: 48rem) {
   .contact{
     display: block;
   }
