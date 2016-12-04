@@ -2,7 +2,7 @@ html {
   width: 100%;
   font-size: 16px;
 }
-@media (max-width: 48rem) {
+@media (max-width: 42rem) {
   html {
     font-size: 12px;
   }
@@ -13,7 +13,7 @@ html{
 body{
   text-align: center;
   width: 100%;
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Open Sans';
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Open Sans', sans-serif;
   font-size: 1rem;
   margin: 0;
   color: #222;
@@ -33,13 +33,13 @@ a:hover {
   color: #333333;
 }
 .container{
-  max-width: 48rem;
+  max-width: 42rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
   margin-bottom: 4rem;
 }
-@media (max-width: 48rem) {
+@media (max-width: 42rem) {
   .container{
     padding-left: .4rem;
     padding-right: .4rem;
@@ -53,16 +53,27 @@ a:hover {
   letter-spacing: .5rem;
 }
 .contact{
-  border-top: .05rem solid #bbbbbb;
-  border-bottom: .05rem solid #bbbbbb;
+  border-top: .1rem solid #bbbbbb;
+  border-bottom: .1rem solid #bbbbbb;
   padding-top: .2rem;
   padding-bottom: .2rem;
-  margin-bottom: 2.8rem;
-  font-size: .9rem;
+  margin-bottom: 2rem;
+  padding-left: .5rem;
+  font-size: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-@media (print and max-width: 48rem) {
+@media (max-width: 42rem) {
+  .contact{
+    display: block;
+  }
+  .contact-item{
+    padding-top: .2rem;
+    padding-left: .4rem;
+  }
+}
+@media (print) {
   .contact{
     display: block;
   }
@@ -76,9 +87,9 @@ a:hover {
 }
 .section{
   margin-top: 2rem;
-  padding-left: 2.6rem;
+  padding-left: .5rem;
 }
-@media (max-width: 48rem) {
+@media (max-width: 42rem) {
   .section {
     padding-left: .4rem;
   }
@@ -97,16 +108,17 @@ a:hover {
   margin-bottom: 1rem;
 }
 .block-title{
-  font-size: 1.1rem;
-  margin-bottom: .05rem;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
 }
 .block-subtitle{
   font-size: .8rem;
-  margin-bottom: .05rem;
+  margin-bottom: .5rem;
   color: #bbbbbb;
 }
 .block-content{
-  font-size: .9rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 footer{
   font-size: .8rem;
