@@ -110,6 +110,7 @@ a:hover {
 .block-title{
   font-size: 1.2rem;
   margin-bottom: .5rem;
+  font-weight: 500;
 }
 .block-subtitle{
   font-size: .8rem;
