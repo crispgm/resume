@@ -13,7 +13,7 @@ html{
 body{
   text-align: center;
   width: 100%;
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   margin: 0;
   color: #222;
@@ -50,7 +50,6 @@ a:hover {
   font-size: 3.2rem;
   padding-top: 2.8rem;
   padding-bottom: 2.8rem;
-  letter-spacing: .2rem;
 }
 .contact{
   border-top: .1rem solid #bbbbbb;
@@ -59,6 +58,7 @@ a:hover {
   padding-bottom: .2rem;
   margin-bottom: 2rem;
   padding-left: .5rem;
+  padding-right: .5rem;
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
@@ -83,7 +83,6 @@ a:hover {
   }
 }
 .contact-item{
-  margin-right: 1rem;
 }
 .section{
   margin-top: 2rem;
@@ -95,10 +94,12 @@ a:hover {
   }
 }
 .section-title{
-  font-size: 1.6rem;
+  font-size: 1rem;
+  font-weight: bold;
   border-left: .2rem solid #bbbbbb;
   padding-left: .8rem;
-  letter-spacing: .2rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
 }
 .section-content{
   margin-top: 1rem;
