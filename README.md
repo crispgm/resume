@@ -5,9 +5,11 @@
 
 ## Introduction
 
-This is a Minimalist's Résumé Template made by Crisp, which is powered by [Jekyll](http://jekyllrb.com/). I use it on my website, [https://crispgm.com/resume.html](https://crispgm.com/resume/).
+This is a Minimalist's Résumé Template made by Crisp, which is powered by [Jekyll](http://jekyllrb.com/).
 
-You can config all the data in YAML and make it your own résumé. Then, you might use on your website or wherever you want.
+You can config all the data in `yaml` and make it your own résumé. Then, you might use on your website or wherever you want.
+
+[DEMO](https://crispgm.github.io/resume/resume.html)
 
 ## Install
 
@@ -38,6 +40,10 @@ You can config all the data in YAML and make it your own résumé. Then, you mig
     ```
     jekyll build
     ```
+
+## Showcases
+
+* [David Zhang](https://crispgm.com/resume.html)
 
 ## License
 
