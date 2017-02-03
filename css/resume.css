@@ -51,7 +51,7 @@ header {
 #fullname{
   font-size: 3.2rem;
 }
-#jobtitle {
+#jobtitle{
   font-size: 1.6rem;
   font-style: italic;
 }
@@ -61,6 +61,14 @@ header {
   padding-bottom: 2rem;
 }
 @media (max-width: 48rem) {
+  header {
+    display: block;
+  }
+  #contact{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: .1rem solid #bbbbbb;
+  }
   .contact-item{
     padding-top: .2rem;
     padding-left: .4rem;
