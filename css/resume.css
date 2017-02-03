@@ -2,7 +2,7 @@ html {
   width: 100%;
   font-size: 16px;
 }
-@media (max-width: 42rem) {
+@media (max-width: 48rem) {
   html {
     font-size: 12px;
   }
@@ -26,57 +26,47 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.font-light{
-  color: #bbbbbb;
-}
-.font-mid{
-  color: #333333;
-}
 .container{
-  max-width: 42rem;
+  max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
-@media (max-width: 42rem) {
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: .1rem solid #bbbbbb;
+}
+#name-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media (max-width: 48rem) {
   .container{
     padding-left: .4rem;
     padding-right: .4rem;
   }
 }
-.fullname{
-  text-align: center;
+#fullname{
   font-size: 3.2rem;
-  padding-top: 2.8rem;
-  padding-bottom: 2.8rem;
 }
-.contact{
-  border-top: .1rem solid #bbbbbb;
-  border-bottom: .1rem solid #bbbbbb;
-  padding-top: .2rem;
-  padding-bottom: .2rem;
-  margin-bottom: 2rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
+#jobtitle {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+#contact{
   font-size: 1rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  padding-top: 2.6rem;
+  padding-bottom: 2rem;
 }
-@media (max-width: 42rem) {
-  .contact{
-    display: block;
-  }
+@media (max-width: 48rem) {
   .contact-item{
     padding-top: .2rem;
     padding-left: .4rem;
   }
 }
 @media (print) {
-  .contact{
-    display: block;
-  }
   .contact-item{
     padding-top: .2rem;
     padding-left: .4rem;
@@ -84,25 +74,25 @@ a:hover {
 }
 .contact-item{
 }
-.section{
-  margin-top: 2rem;
-  padding-left: .5rem;
+section{
+  display: flex;
+  margin-top: 1rem;
+  padding-left: .2rem;
+  border-bottom: .1rem solid #bbbbbb;
 }
-@media (max-width: 42rem) {
-  .section {
+@media (max-width: 48rem) {
+  section {
     padding-left: .4rem;
   }
 }
 .section-title{
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  border-left: .2rem solid #bbbbbb;
-  padding-left: .8rem;
-  padding-top: .4rem;
+  text-align: left;
+  min-width: 8rem;
   padding-bottom: .4rem;
 }
 .section-content{
-  margin-top: 1rem;
   padding-left: 1rem;
 }
 .block{
@@ -123,6 +113,9 @@ a:hover {
   line-height: 1.5;
 }
 footer{
-  font-size: .8rem;
-  margin-left: 0;
+  color: #bbbbbb;
+  font-size: 1rem;
+  min-height: 3rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
 }

@@ -15,17 +15,25 @@ permalink: /resume.html
   </head>
   <body>
     <div class="container">
-      <div class="fullname">
-        {{ site.data.resume.name }}
-      </div>
-      <div class="contact font-mid">
-        {% for item in site.data.resume.contact %}
-        <div class="contact-item">
-          <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
+      <header>
+        <div id="name-wrapper">
+          <div id="fullname">
+            {{ site.data.resume.name }}
+          </div>
+          <div id="jobtitle">
+            {{ site.data.resume.jobtitle }}
+          </div>
         </div>
-        {% endfor %}
-      </div>
-      <div class="section">
+        <div id="contact">
+          {% for item in site.data.resume.contact %}
+          <div class="contact-item">
+            <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
+          </div>
+          {% endfor %}
+        </div>
+      </header>
+      
+      <section>
         <div class="section-title">
           Education
         </div>
@@ -44,9 +52,9 @@ permalink: /resume.html
           </div>
           {% endfor %}
         </div>
-      </div>
+      </section>
 
-      <div class="section">
+      <section>
         <div class="section-title">
           Skills
         </div>
@@ -62,9 +70,9 @@ permalink: /resume.html
           </div>
           {% endfor %}
         </div>
-      </div>
+      </section>
 
-      <div class="section">
+      <section>
         <div class="section-title">
           Work Experience
         </div>
@@ -83,9 +91,9 @@ permalink: /resume.html
           </div>
           {% endfor %}
         </div>
-      </div>
+      </section>
 
-      <div class="section">
+      <section>
         <div class="section-title">
           Projects
         </div>
@@ -104,7 +112,7 @@ permalink: /resume.html
           </div>
           {% endfor %}
         </div>
-      </div>
+      </section>
 
     </div>
     <footer>
