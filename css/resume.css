@@ -1,11 +1,6 @@
 html {
   width: 100%;
-  font-size: 16px;
-}
-@media (max-width: 48rem) {
-  html {
-    font-size: 12px;
-  }
+  font-size: 14px;
 }
 html{
   width: 100%;
@@ -42,12 +37,6 @@ header {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-@media (max-width: 48rem) {
-  .container{
-    padding-left: .4rem;
-    padding-right: .4rem;
-  }
-}
 #fullname{
   font-size: 3.2rem;
 }
@@ -60,26 +49,6 @@ header {
   padding-top: 2.6rem;
   padding-bottom: 2rem;
 }
-@media (max-width: 48rem) {
-  header {
-    display: block;
-  }
-  #contact{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-top: .1rem solid #bbbbbb;
-  }
-  .contact-item{
-    padding-top: .2rem;
-    padding-left: .4rem;
-  }
-}
-@media (print) {
-  .contact-item{
-    padding-top: .2rem;
-    padding-left: .4rem;
-  }
-}
 .contact-item{
 }
 section{
@@ -87,11 +56,6 @@ section{
   margin-top: 1rem;
   padding-left: .2rem;
   border-bottom: .1rem solid #bbbbbb;
-}
-@media (max-width: 48rem) {
-  section {
-    padding-left: .4rem;
-  }
 }
 .section-title{
   font-size: 1.2rem;
@@ -101,7 +65,6 @@ section{
   padding-bottom: .4rem;
 }
 .section-content{
-  padding-left: 1rem;
 }
 .block{
   margin-bottom: 1rem;
@@ -126,4 +89,37 @@ footer{
   min-height: 3rem;
   line-height: 3rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 48rem) {
+  html {
+    font-size: 12px;
+  }
+  .container{
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+  header {
+    display: block;
+  }
+  #name-wrapper{
+    text-align: center;
+  }
+  #contact{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: .1rem solid #bbbbbb;
+  }
+  .contact-item{
+    padding-top: .2rem;
+    padding-left: .4rem;
+  }
+  section {
+    display: block;
+    padding: 0;
+  }
+  .section-title{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 }
