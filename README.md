@@ -43,7 +43,7 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
 
 ## Showcases
 
-* [David Zhang](https://crispgm.com/resume.html)
+* [David Zhang](https://crispgm.com/resume/)
 
 ## License
 
