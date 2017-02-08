@@ -90,7 +90,11 @@ footer{
   line-height: 3rem;
   margin-bottom: 1rem;
 }
-
+@media print {
+  html {
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 48rem) {
   html {
     font-size: 12px;
