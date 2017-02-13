@@ -1,11 +1,11 @@
-# Crisp Minimalist's Résumé Template
+# Minimal Résumé
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/powered%20by-jekyll-red.svg)
 
 ## Introduction
 
-This is a Minimalist's Résumé Template made by Crisp, which is powered by [Jekyll](http://jekyllrb.com/).
+This is a minimal résumé template made by Crisp, powered by [Jekyll](http://jekyllrb.com/).
 
 You can config all the data in `yaml` and make it your own résumé. Then, you might use on your website or wherever you want.
 
