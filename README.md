@@ -11,6 +11,13 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
 
 [DEMO](https://crispgm.github.io/resume/resume.html)
 
+## Features
+
+* Simple, elegant, and minimal design
+* PC and mobile friendly
+* PDF supports and print friendly
+* Flexible and extensible
+
 ## Install
 
 1. Clone the repo
