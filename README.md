@@ -49,37 +49,37 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
     ```
 ## Extending Sections
 
-1. Add new section in `_data/resume.yml`
+* Add new section in `_data/resume.yml`:
 
-    ```
-    languages:
-      - name: English
-        proficiency: Professional working proficiency
-      - name: Mandarin Chinese
-        proficiency: Native or bilingual proficiency
-    ```
+```yaml
+languages:
+  - name: English
+    proficiency: Professional working proficiency
+  - name: Mandarin Chinese
+    proficiency: Native or bilingual proficiency
+```
 
-2. Add section to `resume.html`
+* Add section to `resume.html`:
 
-    ```
-    <section id="languages">
-      <div class="section-title">
-        Language
+```html
+<section id="languages">
+  <div class="section-title">
+    Language
+  </div>
+  <div class="section-content">
+    {% for lang in site.data.resume.languages %}
+    <div class="block">
+      <div class="block-title">
+        {{ lang.name }}
       </div>
-      <div class="section-content">
-        {% for lang in site.data.resume.languages %}
-        <div class="block">
-          <div class="block-title">
-            {{ lang.name }}
-          </div>
-          <div class="block-content">
-            {{ project.proficiency }}
-          </div>
-        </div>
-        {% endfor %}
+      <div class="block-content">
+        {{ project.proficiency }}
       </div>
-    </section>
-    ```
+    </div>
+    {% endfor %}
+  </div>
+</section>
+```
 
 ## Showcases
 
