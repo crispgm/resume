@@ -34,7 +34,7 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
 
 3. Config your résumé data
 
-    The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __WORK EXPERIENCE__, and __PROJECTS__ data will be set in `_data/resume.yml`.
+    The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data will be set in `_data/resume.yml`.
 
 4. Run and Debug
 
@@ -46,6 +46,39 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
 
     ```
     jekyll build
+    ```
+## Extending Sections
+
+1. Add new section in `_data/resume.yml`
+
+    ```
+    languages:
+      - name: English
+        proficiency: Professional working proficiency
+      - name: Mandarin Chinese
+        proficiency: Native or bilingual proficiency
+    ```
+
+2. Add section to `resume.html`
+
+    ```
+    <section id="languages">
+      <div class="section-title">
+        Language
+      </div>
+      <div class="section-content">
+        {% for lang in site.data.resume.languages %}
+        <div class="block">
+          <div class="block-title">
+            {{ lang.name }}
+          </div>
+          <div class="block-content">
+            {{ project.proficiency }}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
     ```
 
 ## Showcases
