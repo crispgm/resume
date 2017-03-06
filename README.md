@@ -47,39 +47,40 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
     ```
     jekyll build
     ```
+
 ## Extending Sections
 
-* Add new section in `_data/resume.yml`:
+1. Add new section in `_data/resume.yml`
 
-```yaml
-languages:
-  - name: English
-    proficiency: Professional working proficiency
-  - name: Mandarin Chinese
-    proficiency: Native or bilingual proficiency
-```
+  ```yaml
+  languages:
+    - name: English
+      proficiency: Professional working proficiency
+    - name: Mandarin Chinese
+      proficiency: Native or bilingual proficiency
+  ```
 
-* Add section to `resume.html`:
+2. Add section to `resume.html`:
 
-```html
-<section id="languages">
-  <div class="section-title">
-    Language
-  </div>
-  <div class="section-content">
-    {% for lang in site.data.resume.languages %}
-    <div class="block">
-      <div class="block-title">
-        {{ lang.name }}
-      </div>
-      <div class="block-content">
-        {{ project.proficiency }}
-      </div>
+  ```html
+  <section id="languages">
+    <div class="section-title">
+      Language
     </div>
-    {% endfor %}
-  </div>
-</section>
-```
+    <div class="section-content">
+      {% for lang in site.data.resume.languages %}
+      <div class="block">
+        <div class="block-title">
+          {{ lang.name }}
+        </div>
+        <div class="block-content">
+          {{ project.proficiency }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  ```
 
 ## Showcases
 
