@@ -74,7 +74,7 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
           {{ lang.name }}
         </div>
         <div class="block-content">
-          {{ project.proficiency }}
+          {{ lang.proficiency }}
         </div>
       </div>
       {% endfor %}
