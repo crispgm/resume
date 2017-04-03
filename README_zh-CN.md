@@ -11,7 +11,7 @@
 
 通过配置 `yaml` 文件，就可以完成简历，并部署在网站上或是输出成PDF。Whatever you want!
 
-[示例](https://crispgm.github.io/resume/resume.html)
+[示例](https://crispgm.github.io/resume/resume_zh-CN.html)
 
 ## 功能和特点
 
