@@ -1,0 +1,121 @@
+---
+layout: null
+permalink: /resume_zh-CN.html
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.data.resume_zhcn.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/opensans.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/resume.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="name-wrapper">
+          <div id="fullname">
+            {{ site.data.resume_zhcn.name }}
+          </div>
+          <div id="jobtitle">
+            {{ site.data.resume_zhcn.jobtitle }}
+          </div>
+        </div>
+        <div id="contact">
+          {% for item in site.data.resume_zhcn.contact %}
+          <div class="contact-item">
+            <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
+          </div>
+          {% endfor %}
+        </div>
+      </header>
+      
+      <section id="education">
+        <div class="section-title">
+          教育
+        </div>
+        <div class="section-content">
+          {% for edu in site.data.resume_zhcn.education %}
+          <div class="block">
+            <div class="block-title">
+              {{ edu.university }}
+            </div>
+            <div class="block-subtitle">
+              {{ edu.duration }} | {{ edu.location }}
+            </div>
+            <div class="block-content">
+              {{ edu.major }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="section-title">
+          专业技能
+        </div>
+        <div class="section-content">
+          {% for skill in site.data.resume_zhcn.skills %}
+          <div class="block">
+            <div class="block-subtitle">
+              {{ skill.title }}
+            </div>
+            <div class="block-content">
+              {{ skill.items }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="section-title">
+          工作经历
+        </div>
+        <div class="section-content">
+          {% for exp in site.data.resume_zhcn.experience %}
+          <div class="block">
+            <div class="block-title">
+              {{ exp.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ exp.duration }} | {{ exp.company }}
+            </div>
+            <div class="block-content">
+              {{ exp.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          项目
+        </div>
+        <div class="section-content">
+          {% for project in site.data.resume_zhcn.projects %}
+          <div class="block">
+            <div class="block-title">
+              {{ project.name }}
+            </div>
+            <div class="block-subtitle">
+              {{ project.contribution }}
+            </div>
+            <div class="block-content">
+              {{ project.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+    </div>
+    <footer>
+      Made with <i class="fa fa-heart aria-hidden="true></i> by <a href="https://github.com/crispgm/resume">David Zhang</a> ( <a href="javascript:window.print()">PDF</a> )
+    </footer>
+  </body>
+</html>
