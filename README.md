@@ -16,7 +16,7 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
 ## Features
 
 * Simple, elegant, and minimal design
-* PC and mobile friendly
+* PC and mobile friendly, but it looks better on PC
 * PDF supports and print friendly
 * Flexible and extensible
 

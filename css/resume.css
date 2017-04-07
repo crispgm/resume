@@ -44,7 +44,6 @@ header {
 }
 #jobtitle {
   font-size: 1.2rem;
-  font-style: italic;
   margin-top: .8rem;
 }
 #contact {
@@ -71,8 +70,18 @@ section {
 }
 .section-content {
 }
+.section-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
 .block {
   margin-bottom: 2rem;
+}
+.block-square {
+  width: 18rem;
+}
+.block-square:nth-last-child(2) {
+  margin-bottom: 0;
 }
 .block:last-child {
   margin-bottom: 0;
@@ -117,13 +126,14 @@ footer {
   }
   header {
     display: block;
+    padding-bottom: 1rem;
   }
   #name-wrapper {
     text-align: center;
+    padding-bottom: 2rem;
   }
   #contact {
     padding-top: 1rem;
-    padding-bottom: 1rem;
     border-top: .1rem solid #bbbbbb;
   }
   .contact-item {
@@ -132,10 +142,19 @@ footer {
   }
   section {
     display: block;
-    padding: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .section-title {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+  .section-flex {
+    display: block;
+  }
+  .block-square {
+  }
+  .block-square:nth-last-child(2) {
+    margin-bottom: 2rem;
   }
 }
