@@ -60,7 +60,7 @@ permalink: /resume_zh-CN.html
         <div class="section-content">
           {% for skill in site.data.resume_zhcn.skills %}
           <div class="block">
-            <div class="block-subtitle">
+            <div class="block-title">
               {{ skill.title }}
             </div>
             <div class="block-content">
@@ -107,6 +107,24 @@ permalink: /resume_zh-CN.html
             </div>
             <div class="block-content">
               {{ project.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="languages">
+        <div class="section-title">
+          语言
+        </div>
+        <div class="section-content">
+          {% for language in site.data.resume_zhcn.languages %}
+          <div class="block">
+            <div class="block-title">
+              {{ language.name }}
+            </div>
+            <div class="block-content">
+              {{ language.proficiency }}
             </div>
           </div>
           {% endfor %}

@@ -1,6 +1,5 @@
 ---
 layout: null
-title: Résumé
 permalink: /resume.html
 ---
 <!DOCTYPE html>
@@ -61,7 +60,7 @@ permalink: /resume.html
         <div class="section-content">
           {% for skill in site.data.resume.skills %}
           <div class="block">
-            <div class="block-subtitle">
+            <div class="block-title">
               {{ skill.title }}
             </div>
             <div class="block-content">
@@ -114,9 +113,27 @@ permalink: /resume.html
         </div>
       </section>
 
+      <section id="languages">
+        <div class="section-title">
+          Languages
+        </div>
+        <div class="section-content">
+          {% for language in site.data.resume.languages %}
+          <div class="block">
+            <div class="block-title">
+              {{ language.name }}
+            </div>
+            <div class="block-content">
+              {{ language.proficiency }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
     </div>
     <footer>
-      Made with <i class="fa fa-heart aria-hidden="true></i> by <a href="https://github.com/crispgm/resume">David Zhang</a> ( <a href="javascript:window.print()">PDF</a> )
+      Made with <i class="fa fa-heart aria-hidden="true></i> by <a href="https://github.com/crispgm/resume">David Zhang</a> <span class="print">( <a href="javascript:window.print()">PDF</a> )</span>
     </footer>
   </body>
 </html>

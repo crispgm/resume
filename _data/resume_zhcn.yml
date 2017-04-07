@@ -1,6 +1,6 @@
-title: 简历
-name: 王小二
-jobtitle: 高级软件研发工程师
+title: "简历"
+name: "王小二"
+jobtitle: "高级软件研发工程师"
 contact:
   - icon: fa-envelope
     text: wangxiao@er.com
@@ -46,3 +46,8 @@ projects:
   - name: "你的项目"
     description: "一个非常强大的开源项目，使用了若干强力技术，大大提升了生产力"
     contribution: "创建者和维护者"
+languages:
+  - name: "英语"
+    proficiency: "工作熟练"
+  - name: "中文"
+    proficiency: "母语"
