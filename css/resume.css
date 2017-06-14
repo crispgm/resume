@@ -8,7 +8,8 @@ html {
 body {
   text-align: center;
   width: 100%;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   margin: 0;
   color: #555;
@@ -62,6 +63,7 @@ section {
   padding-bottom: 2.4rem;
   padding-left: .2rem;
   border-bottom: .1rem solid #bbbbbb;
+  hyphens: auto;
 }
 .section-title {
   font-size: 1.6rem;
