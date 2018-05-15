@@ -96,4 +96,4 @@ The Jekyll project members have been discussed the `jekyll extract` command and 
 
 ## License
 
-MIT License
+[![](https://img.shields.io/github/license/crispgm/resume.svg)](/LICENSE)

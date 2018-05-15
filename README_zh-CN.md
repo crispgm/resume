@@ -96,4 +96,4 @@ Jekyll 的项目维护者和贡献者目前还在讨论一些解决方案，比�
 
 ## 协议
 
-MIT License
+[![](https://img.shields.io/github/license/crispgm/resume.svg)](/LICENSE)
