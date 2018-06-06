@@ -36,7 +36,7 @@
 
 3. 配置简历数据
 
-    首先在 `_config.yml` 中配置 `baseurl`，如果需要部署在网站的话。在 `_data/resume.yml` 中填写__教育__、__技能__、__工作经验__和__项目__。
+    首先在 `_config.yml` 中配置 `baseurl`，如果需要部署在网站的话。在 `_data/resume.yml` 中填写教育（education）、技能（skills）、工作经验（experience）和项目（projects）。
 
 4. 运行和预览
 
@@ -56,10 +56,10 @@
 
   ```yaml
   languages:
-    - name: English
-      proficiency: Professional working proficiency
-    - name: Mandarin Chinese
-      proficiency: Native or bilingual proficiency
+    - name: 英语
+      proficiency: 工作熟练
+    - name: 中文
+      proficiency: 母语
   ```
 
 2. 把读取代码加入 `resume.html`:
