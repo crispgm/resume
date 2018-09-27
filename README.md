@@ -1,7 +1,7 @@
 # Crisp Minimal Résumé
 
-![](https://img.shields.io/badge/license-MIT-blue.svg)
-![](https://img.shields.io/badge/powered%20by-jekyll-red.svg)
+![](https://travis-ci.org/crispgm/resume.svg)
+![](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
 ## Introduction
 

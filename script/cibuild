@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -e
+
+echo "Building Jekyll site"
+
+bundle exec jekyll build
+
+if test -e "./_site/resume.html";then
+  echo "It smokes!"
+else
+  echo "Build EN version failed"
+  exit 1
+fi
+
+if test -e "./_site/resume_zh-CN.html";then
+  echo "It smokes!"
+else
+  echo "Build CN version failed"
+  exit 1
+fi

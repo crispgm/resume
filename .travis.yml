@@ -1,0 +1,11 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm: 2.4
+
+install: script/bootstrap
+script: script/cibuild
+
+notifications:
+  slack: navyblue-team:ioO5diAGc5WUQVDKc5BH1UbE
+  email: false
