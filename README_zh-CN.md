@@ -20,7 +20,7 @@
 * 支持输出 PDF 并且打印机友好
 * 简单的扩展方式
 
-## Install
+## 安装和使用
 
 1. 克隆（可以先 fork）
 
@@ -49,6 +49,23 @@
     ```
     jekyll build
     ```
+
+## 数据格式
+
+### 联系信息
+
+```yaml
+contact:
+  - icon: fa-envelope
+    text: youremail@example.com
+  - icon: fa-phone-square
+    text: your-phone-num
+  - icon: fa-globe
+    text: your-website.com
+    link: https://crispgm.github.io/resume/resume.html
+```
+
+内置了 FontAwesome 图标字体，请使用`fa-`开头的类名作为图标。`link`是可选项，如果需要在 Web 或 PDF 版中支持链接，请填写此项。
 
 ## 扩展简历内容
 

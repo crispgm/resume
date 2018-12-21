@@ -26,7 +26,13 @@ permalink: /resume_zh-CN.html
         <div id="contact">
           {% for item in site.data.resume_zhcn.contact %}
           <div class="contact-item">
+            {% if item.link %}
+            <a href="{{ item.link }}">
+            {% endif %}
             <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
+            {% if item.link %}
+            </a>
+            {% endif %}
           </div>
           {% endfor %}
         </div>

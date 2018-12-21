@@ -20,7 +20,7 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
 * PDF supports and print friendly
 * Flexible and extensible
 
-## Install
+## Usage
 
 1. Clone the repo
 
@@ -49,6 +49,23 @@ You can config all the data in `yaml` and make it your own résumé. Then, you m
     ```
     jekyll build
     ```
+
+## Data Format
+
+### Contact
+
+```yaml
+contact:
+  - icon: fa-envelope
+    text: youremail@example.com
+  - icon: fa-phone-square
+    text: your-phone-num
+  - icon: fa-globe
+    text: your-website.com
+    link: https://crispgm.github.io/resume/resume.html
+```
+
+FontAwesome iconfont is embedded, so use the `fa-` class name as icon. `link` is optional, present if you want a link for your web version.
 
 ## Extending Sections
 

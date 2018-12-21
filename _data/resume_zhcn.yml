@@ -8,8 +8,10 @@ contact:
     text: (+86) 13800138000
   - icon: fa-globe
     text: wangxiaoer.com
+    link: https://crispgm.github.io/resume/resume_zh-CN.html
   - icon: fa-github
     text: wangxiaoer
+    link: https://github.com/crispgm/resume
 education:
   - university: "攻城科技大学"
     duration: "2011/07 - 2012/12"

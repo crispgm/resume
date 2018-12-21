@@ -54,6 +54,10 @@ header {
 .contact-item {
   margin-top: .4rem;
 }
+.contact-item a {
+  color: inherit;
+  text-decoration: none;
+}
 section {
   display: flex;
   padding-top: 2.4rem;

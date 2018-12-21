@@ -8,8 +8,10 @@ contact:
     text: your-phone-num
   - icon: fa-globe
     text: your-website.com
+    link: https://crispgm.github.io/resume/resume.html
   - icon: fa-github
     text: your-github
+    link: https://github.com/crispgm/resume
 education:
   - university: Your First University
     duration: Jul 2011 - Dec 2012
