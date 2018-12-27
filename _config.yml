@@ -6,3 +6,4 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  - /script
