@@ -4,6 +4,5 @@ exclude:
   - README.md
   - "README_zh-CN.md"
   - LICENSE
-  - .gitignore
   - Gemfile
   - Gemfile.lock
