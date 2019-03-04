@@ -109,6 +109,8 @@ The Jekyll project members have been discussed the `jekyll extract` command and 
 
 ## Showcases
 
+Feel free to add yours here.
+
 * [David Zhang](https://crispgm.com/resume/)
 
 ## License
