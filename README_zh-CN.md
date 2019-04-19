@@ -4,8 +4,8 @@
 ![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
 <p align="center">
-  <img src="screenshots/resume-desktop.png" width="400" />
-  <img src="screenshots/resume-mobile.png" width="152" />
+  <img src="screenshots/resume-desktop.png" width="578" />
+  <img src="screenshots/resume-mobile.png" width="220" />
 </p>
 
 ## 简介
