@@ -55,6 +55,10 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
     jekyll build
     ```
 
+## Gem-based Theme
+
+Gem-based theme is under development, which will be released in `3.0.0`.
+
 ## Data Format
 
 ### Contact
@@ -105,12 +109,6 @@ FontAwesome iconfont is embedded, so use the `fa-` class name as icon. `link` is
     </div>
   </section>
   ```
-
-## Why not `gem`?
-
-Gem-based Jekyll theme is convenient for distributing. However, the implementation details are hidden, which makes it not easy to extend (so that we can add section to resume content). And also, a `_data` file goes along with theme is not supported yet.
-
-The Jekyll project members have been discussed the `jekyll extract` command and theme `_data` files so far. I recommend to use traditional Jekyll theme distribution method (thus, fork and edit).
 
 ## Showcases
 
