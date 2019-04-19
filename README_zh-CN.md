@@ -1,7 +1,7 @@
 # Crisp Minimal Résumé
 
-![](https://travis-ci.org/crispgm/resume.svg)
-![](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
+![travis](https://travis-ci.org/crispgm/resume.svg)
+![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
 ## 简介
 
@@ -24,13 +24,13 @@
 
 1. 克隆（可以先 fork）
 
-    ```
+    ```shell
     git clone https://github.com/crispgm/resume.git
     ```
 
 2. 安装 Jekyll
 
-    ```
+    ```shell
     gem install jekyll
     ```
 
@@ -40,13 +40,13 @@
 
 4. 运行和预览
 
-    ```
+    ```shell
     jekyll serve
     ```
 
 5. 构建
 
-    ```
+    ```shell
     jekyll build
     ```
 
@@ -115,4 +115,4 @@ Jekyll 的项目维护者和贡献者目前还在讨论一些解决方案，比�
 
 ## 协议
 
-[![](https://img.shields.io/github/license/crispgm/resume.svg)](/LICENSE)
+[![license](https://img.shields.io/github/license/crispgm/resume.svg)](/LICENSE)

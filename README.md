@@ -1,7 +1,7 @@
 # Crisp Minimal Résumé
 
-![](https://travis-ci.org/crispgm/resume.svg)
-![](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
+![travis](https://travis-ci.org/crispgm/resume.svg)
+![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
 ## Introduction
 
@@ -24,13 +24,13 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 
 1. Clone the repo
 
-    ```
+    ```shell
     git clone https://github.com/crispgm/resume.git
     ```
 
 2. Install Jekyll
 
-    ```
+    ```shell
     gem install jekyll
     ```
 
@@ -40,13 +40,13 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 
 4. Run and Debug
 
-    ```
+    ```shell
     jekyll serve
     ```
 
 5. Build
 
-    ```
+    ```shell
     jekyll build
     ```
 
@@ -115,4 +115,4 @@ Feel free to add yours here.
 
 ## License
 
-[![](https://img.shields.io/github/license/crispgm/resume.svg)](/LICENSE)
+[![license](https://img.shields.io/github/license/crispgm/resume.svg)](/LICENSE)
