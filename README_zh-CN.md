@@ -3,6 +3,11 @@
 ![travis](https://travis-ci.org/crispgm/resume.svg)
 ![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
+<p align="center">
+  <img src="screenshots/resume-desktop.png" width="400" />
+  <img src="screenshots/resume-mobile.png" width="152" />
+</p>
+
 ## 简介
 
 [English](/README.md) [简体中文](/README_zh-CN.md)
