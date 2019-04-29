@@ -57,7 +57,38 @@
 
 ## Gem 模式
 
-基于 RubyGems 分发的主题已经在开发中，目测可以内测使用，将会于 `3.0.0` 版发布。
+1. 添加 Gem 到 `Gemfile`
+
+    ```shell
+    gem "jekyll-theme-minimal-resume"
+    ```
+
+2. 安装或更新 Bundle
+
+    ```shell
+    bundle install
+    ```
+
+3. 创建 `resume.html` 并加入如下配置
+
+    ```shell
+    ---
+    layout: resume
+    permalink: /resume.html
+    ---
+    ```
+
+4. 运行和预览
+
+    ```shell
+    jekyll serve
+    ```
+
+5. 构建
+
+    ```shell
+    jekyll build
+    ```
 
 ## 数据格式
 

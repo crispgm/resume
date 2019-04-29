@@ -57,7 +57,38 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 
 ## Gem-based Theme
 
-Gem-based theme is under development, which will be released in `3.0.0`.
+1. Add to `Gemfile`
+
+    ```shell
+    gem "jekyll-theme-minimal-resume"
+    ```
+
+2. Install or Update Bundle
+
+    ```shell
+    bundle install
+    ```
+
+3. Create `resume.html` and add the following
+
+    ```shell
+    ---
+    layout: resume
+    permalink: /resume.html
+    ---
+    ```
+
+4. Run and Debug
+
+    ```shell
+    jekyll serve
+    ```
+
+5. Build
+
+    ```shell
+    jekyll build
+    ```
 
 ## Data Format
 
