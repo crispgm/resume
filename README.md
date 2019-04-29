@@ -1,5 +1,6 @@
 # Crisp Minimal Résumé
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)
 ![travis](https://travis-ci.org/crispgm/resume.svg)
 ![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
