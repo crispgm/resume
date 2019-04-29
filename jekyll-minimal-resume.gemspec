@@ -13,8 +13,10 @@ Gem::Specification.new do |spec|
     f.match(%r{^(assets|_(data)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
 
-  spec.add_runtime_dependency "jekyll", "~> 3.6"
+  spec.required_ruby_version = '~> 2.3'
 
-  spec.add_development_dependency "bundler"
-  spec.add_development_dependency "rake"
+  spec.add_runtime_dependency "jekyll", "~> 3.8"
+
+  spec.add_development_dependency "bundler", "~> 2.0"
+  spec.add_development_dependency "rake", "~> 10.0"
 end
