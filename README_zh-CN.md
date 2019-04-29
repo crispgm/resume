@@ -1,6 +1,5 @@
 # Crisp Minimal Résumé
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)
 ![travis](https://travis-ci.org/crispgm/resume.svg)
 ![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
@@ -58,38 +57,7 @@
 
 ## Gem 模式
 
-1. 添加 Gem 到 `Gemfile`
-
-    ```shell
-    gem "jekyll-theme-minimal-resume"
-    ```
-
-2. 安装或更新 Bundle
-
-    ```shell
-    bundle install
-    ```
-
-3. 创建 `resume.html` 并加入如下配置
-
-    ```shell
-    ---
-    layout: resume
-    permalink: /resume.html
-    ---
-    ```
-
-4. 运行和预览
-
-    ```shell
-    jekyll serve
-    ```
-
-5. 构建
-
-    ```shell
-    jekyll build
-    ```
+Gem 模式正在开发测试中，目前不推荐使用，敬请期待。
 
 ## 数据格式
 

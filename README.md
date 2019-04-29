@@ -1,6 +1,5 @@
 # Crisp Minimal Résumé
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)
 ![travis](https://travis-ci.org/crispgm/resume.svg)
 ![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
@@ -58,38 +57,7 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 
 ## Gem-based Theme
 
-1. Add to `Gemfile`
-
-    ```shell
-    gem "jekyll-theme-minimal-resume"
-    ```
-
-2. Install or Update Bundle
-
-    ```shell
-    bundle install
-    ```
-
-3. Create `resume.html` and add the following
-
-    ```shell
-    ---
-    layout: resume
-    permalink: /resume.html
-    ---
-    ```
-
-4. Run and Debug
-
-    ```shell
-    jekyll serve
-    ```
-
-5. Build
-
-    ```shell
-    jekyll build
-    ```
+Gem-based version is coming soon.
 
 ## Data Format
 
