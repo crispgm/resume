@@ -1,5 +1,3 @@
 source "https://rubygems.org"
 
-group :test do
-  gem "jekyll"
-end
+gemspec

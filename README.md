@@ -1,5 +1,6 @@
 # Crisp Minimal Résumé
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)
 ![travis](https://travis-ci.org/crispgm/resume.svg)
 ![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
@@ -42,6 +43,41 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 3. Config your résumé data
 
     The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data will be set in `_data/resume.yml`.
+
+4. Run and Debug
+
+    ```shell
+    jekyll serve
+    ```
+
+5. Build
+
+    ```shell
+    jekyll build
+    ```
+
+## Gem-based Theme
+
+1. Add to `Gemfile`
+
+    ```shell
+    gem "jekyll-theme-minimal-resume"
+    ```
+
+2. Install or Update Bundle
+
+    ```shell
+    bundle install
+    ```
+
+3. Create `resume.html` and add the following
+
+    ```shell
+    ---
+    layout: resume
+    permalink: /resume.html
+    ---
+    ```
 
 4. Run and Debug
 
@@ -105,12 +141,6 @@ FontAwesome iconfont is embedded, so use the `fa-` class name as icon. `link` is
     </div>
   </section>
   ```
-
-## Why not `gem`?
-
-Gem-based Jekyll theme is convenient for distributing. However, the implementation details are hidden, which makes it not easy to extend (so that we can add section to resume content). And also, a `_data` file goes along with theme is not supported yet.
-
-The Jekyll project members have been discussed the `jekyll extract` command and theme `_data` files so far. I recommend to use traditional Jekyll theme distribution method (thus, fork and edit).
 
 ## Showcases
 

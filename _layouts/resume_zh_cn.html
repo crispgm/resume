@@ -1,0 +1,128 @@
+---
+layout: default
+---
+
+    <div class="container">
+      <header>
+        <div id="name-wrapper">
+          <div id="fullname">
+            {{ site.data.resume_zhcn.name }}
+          </div>
+          <div id="jobtitle">
+            {{ site.data.resume_zhcn.jobtitle }}
+          </div>
+        </div>
+        <div id="contact">
+          {% for item in site.data.resume_zhcn.contact %}
+          <div class="contact-item">
+            {% if item.link %}
+            <a href="{{ item.link }}">
+            {% endif %}
+            <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
+            {% if item.link %}
+            </a>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </header>
+
+      <section id="education">
+        <div class="section-title">
+          教育
+        </div>
+        <div class="section-content">
+          {% for edu in site.data.resume_zhcn.education %}
+          <div class="block">
+            <div class="block-title">
+              {{ edu.university }}
+            </div>
+            <div class="block-subtitle">
+              {{ edu.duration }} | {{ edu.location }}
+            </div>
+            <div class="block-content">
+              {{ edu.major }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="section-title">
+          专业技能
+        </div>
+        <div class="section-content">
+          {% for skill in site.data.resume_zhcn.skills %}
+          <div class="block">
+            <div class="block-title">
+              {{ skill.title }}
+            </div>
+            <div class="block-content">
+              {{ skill.items }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="section-title">
+          工作经历
+        </div>
+        <div class="section-content">
+          {% for exp in site.data.resume_zhcn.experience %}
+          <div class="block">
+            <div class="block-title">
+              {{ exp.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ exp.duration }} | {{ exp.company }}
+            </div>
+            <div class="block-content">
+              {{ exp.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          项目
+        </div>
+        <div class="section-content">
+          {% for project in site.data.resume_zhcn.projects %}
+          <div class="block">
+            <div class="block-title">
+              {{ project.name }}
+            </div>
+            <div class="block-subtitle">
+              {{ project.contribution }}
+            </div>
+            <div class="block-content">
+              {{ project.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="languages">
+        <div class="section-title">
+          语言
+        </div>
+        <div class="section-content section-flex">
+          {% for language in site.data.resume_zhcn.languages %}
+          <div class="block block-square">
+            <div class="block-title">
+              {{ language.name }}
+            </div>
+            <div class="block-content">
+              {{ language.proficiency }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+    </div>

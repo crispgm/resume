@@ -1,5 +1,6 @@
 # Crisp Minimal Résumé
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)
 ![travis](https://travis-ci.org/crispgm/resume.svg)
 ![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
@@ -42,6 +43,41 @@
 3. 配置简历数据
 
     首先在 `_config.yml` 中配置 `baseurl`，如果需要部署在网站的话。在 `_data/resume.yml` 中填写教育（education）、技能（skills）、工作经验（experience）和项目（projects）。
+
+4. 运行和预览
+
+    ```shell
+    jekyll serve
+    ```
+
+5. 构建
+
+    ```shell
+    jekyll build
+    ```
+
+## Gem 模式
+
+1. 添加 Gem 到 `Gemfile`
+
+    ```shell
+    gem "jekyll-theme-minimal-resume"
+    ```
+
+2. 安装或更新 Bundle
+
+    ```shell
+    bundle install
+    ```
+
+3. 创建 `resume.html` 并加入如下配置
+
+    ```shell
+    ---
+    layout: resume
+    permalink: /resume.html
+    ---
+    ```
 
 4. 运行和预览
 
@@ -105,12 +141,6 @@ contact:
     </div>
   </section>
   ```
-
-## 为什么不用 `gem` 进行分发？
-
-熟悉 Jekyll 的同学可能知道，Jekyll 在3.3版推出了基于 `gem` 的主题分发方式。这对于建站的确方便了很多，但这套主题系统也存在明显的问题。它起初设计是为了帮助 GitHub Pages 实现快速配置项目主页，对于实现细节是屏蔽的，导致扩展十分困难（比如：给简历模板增加一些段落）。同时，目前基于 `gem` 的主题不支持打包和读取 `_data` 目录下数据文件的机制，需要用户自行创建才能跑起来，违背了简单分发的目的。
-
-Jekyll 的项目维护者和贡献者目前还在讨论一些解决方案，比如增加 `jekyll extract` 命令或是加入 `_data` 目录等。因此目前，我推荐使用原始的 Jekyll 主题分发方式。也就是：先 fork 再自己修改。
 
 ## Showcases
 

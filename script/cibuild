@@ -6,6 +6,7 @@ echo "Building Jekyll site"
 
 bundle exec jekyll build
 
+# build English version
 if test -e "./_site/resume.html";then
   echo "It smokes!"
 else
@@ -13,9 +14,20 @@ else
   exit 1
 fi
 
+# build Chinese version
 if test -e "./_site/resume_zh-CN.html";then
   echo "It smokes!"
 else
   echo "Build CN version failed"
+  exit 1
+fi
+
+# build with Gem
+rm -rf ./_site
+bundle exec jekyll build --config ./_config_gem.yml
+if test -e "./_site/resume.html";then
+  echo "It smokes!"
+else
+  echo "Build EN version with Gem failed"
   exit 1
 fi
