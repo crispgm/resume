@@ -88,7 +88,7 @@ contact:
       proficiency: 母语
   ```
 
-2. 把读取代码加入 `resume.html`:
+2. 把读取代码加入 `_layouts/resume.html`:
 
   ```html
   <section id="languages">

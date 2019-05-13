@@ -88,7 +88,7 @@ FontAwesome iconfont is embedded, so use the `fa-` class name as icon. `link` is
       proficiency: Native or bilingual proficiency
   ```
 
-2. Add section to `resume.html`:
+2. Add section to `_layouts/resume.html`:
 
   ```html
   <section id="languages">
