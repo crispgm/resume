@@ -7,7 +7,7 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
-  - crisp-minimal-resume.gemspec
+  - jekyll-crisp-minimal-resume.gemspec
   - /script
   - /screenshots
   - /fixtures
