@@ -76,6 +76,14 @@ contact:
 
 内置了 FontAwesome 图标字体，请使用`fa-`开头的类名作为图标。`link`是可选项，如果需要在 Web 或 PDF 版中支持链接，请填写此项。
 
+## 颜色
+
+主题配色依照 [Open-Color](https://yeun.github.io/open-color/)。默认是灰色，可以通过 `_config.yml` 中的 `color` 进行修改：
+
+```yaml
+color: cyan
+```
+
 ## 扩展简历内容
 
 1. 在 `_data/resume.yml` 中增加段落，比如增加显示你的语言水平：

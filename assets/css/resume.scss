@@ -1,0 +1,58 @@
+---
+---
+
+/*
+ * Theme of Crisp Minimal Resume
+ * Copyright (c) David Zhang, 2019
+ */
+
+$breakpoint: 48rem;
+
+$background-color: #fbfbfb;
+
+{% case site.color %}
+{% when 'red' %}
+$main-color:       #495057;
+$secondary-color:  #fa5252;
+{% when 'pink' %}
+$main-color:       #495057;
+$secondary-color:  #e64980;
+{% when 'grape' %}
+$main-color:       #495057;
+$secondary-color:  #e64980;
+{% when 'violet' %}
+$main-color:       #495057;
+$secondary-color:  #7950f2;
+{% when 'indigo' %}
+$main-color:       #495057;
+$secondary-color:  #4c6ef5;
+{% when 'blue' %}
+$main-color:       #495057;
+$secondary-color:  #228be6;
+{% when 'cyan' %}
+$main-color:       #495057;
+$secondary-color:  #15aabf;
+{% when 'teal' %}
+$main-color:       #495057;
+$secondary-color:  #12b886;
+{% when 'green' %}
+$main-color:       #495057;
+$secondary-color:  #40c057;
+{% when 'lime' %}
+$main-color:       #495057;
+$secondary-color:  #82c91e;
+{% when 'yellow' %}
+$main-color:       #495057;
+$secondary-color:  #fab005;
+{% when 'orange' %}
+$main-color:       #495057;
+$secondary-color:  #fd7e14;
+{% else %}
+$main-color:       #495057;
+$secondary-color:  #adb5bd;
+{% endcase %}
+
+@import "main";
+@import "header";
+@import "body";
+@import "footer";
