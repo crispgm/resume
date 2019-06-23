@@ -1,0 +1,53 @@
+html {
+  width: 100%;
+  font-size: 14px;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  font-family: "Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  margin: 0;
+  color: $main-color;
+  background-color: $background-color;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  max-width: $breakpoint;
+  text-align: left;
+}
+
+@media screen and (max-width: $breakpoint) {
+  html {
+    font-size: 12px;
+  }
+
+  .container {
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+}
+
+@media print {
+  html {
+    font-size: 12px;
+  }
+
+  .print {
+    display: none;
+  }
+}

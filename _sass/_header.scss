@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: .1rem solid $secondary-color;
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+}
+
+#name-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#fullname {
+  font-size: 2.2rem;
+}
+
+#jobtitle {
+  font-size: 1.2rem;
+  margin-top: .8rem;
+}
+
+#contact {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.contact-item {
+  margin-top: .4rem;
+
+  &:nth-child(1) {
+    margin-top: 0;
+  }
+
+  &:a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: $breakpoint) {
+  header {
+    display: block;
+    padding-bottom: 1rem;
+  }
+
+  #name-wrapper {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  #contact {
+    padding-top: 1rem;
+    border-top: .1rem solid $secondary-color;
+  }
+
+  .contact-item {
+    padding-top: .2rem;
+    padding-left: .4rem;
+  }
+}
