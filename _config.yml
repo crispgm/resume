@@ -10,3 +10,4 @@ exclude:
   - /script
   - /screenshots
   - /fixtures
+  - Rakefile
