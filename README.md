@@ -76,6 +76,18 @@ contact:
 
 FontAwesome iconfont is embedded, so use the `fa-` class name as icon. `link` is optional, present if you want a link for your web version.
 
+## Colors
+
+Colors of the template is powered by [Open-Color](https://yeun.github.io/open-color/).
+
+The default color Gray. However, you can change it to other colors as you like.
+
+`color` may be specified in `_config.yml`:
+
+```yaml
+color: cyan
+```
+
 ## Extending Sections
 
 1. Add new section in `_data/resume.yml`

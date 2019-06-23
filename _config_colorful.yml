@@ -1,0 +1,14 @@
+title: Résumé
+baseurl: "/resume/"
+color: cyan
+exclude:
+  - README.md
+  - "README_zh-CN.md"
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-crisp-minimal-resume.gemspec
+  - /script
+  - /screenshots
+  - /fixtures
+  - Rakefile
