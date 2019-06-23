@@ -84,6 +84,8 @@ contact:
 color: cyan
 ```
 
+<img src="screenshots/resume-with-color.png" width="578" />
+
 ## 扩展简历内容
 
 1. 在 `_data/resume.yml` 中增加段落，比如增加显示你的语言水平：

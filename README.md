@@ -88,6 +88,8 @@ The default color Gray. However, you can change it to other colors as you like.
 color: cyan
 ```
 
+<img src="screenshots/resume-with-color.png" width="578" />
+
 ## Extending Sections
 
 1. Add new section in `_data/resume.yml`
