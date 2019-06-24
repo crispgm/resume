@@ -8,10 +8,6 @@
   <img src="screenshots/resume-mobile.png" width="220" />
 </p>
 
-<p align="center">
-  <a href="https://www.buymeacoffee.com/crispgm" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-</p>
-
 ## 简介
 
 [English](/README.md) [简体中文](/README_zh-CN.md)
@@ -129,6 +125,11 @@ color: cyan
 欢迎在此提交你的简历。
 
 * [David Zhang](https://crispgm.com/resume/)
+
+## 捐助
+
+* [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
+* [PayPal](https://www.paypal.me/crispgm)
 
 ## 协议
 
