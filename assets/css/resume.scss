@@ -47,6 +47,12 @@ $secondary-color:  #fab005;
 {% when 'orange' %}
 $main-color:       #495057;
 $secondary-color:  #fd7e14;
+{% when 'gray' %}
+$main-color:       #495057;
+$secondary-color:  #adb5bd;
+{% when 'nord' %}
+$main-color:       #4C566A;
+$secondary-color:  #81A1C1;
 {% else %}
 $main-color:       #495057;
 $secondary-color:  #adb5bd;

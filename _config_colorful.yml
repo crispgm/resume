@@ -1,6 +1,6 @@
 title: Résumé
 baseurl: "/resume/"
-color: cyan
+color: nord
 exclude:
   - README.md
   - "README_zh-CN.md"

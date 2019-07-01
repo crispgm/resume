@@ -74,15 +74,34 @@ contact:
     link: https://crispgm.github.io/resume/resume.html
 ```
 
-内置了 FontAwesome 图标字体，请使用`fa-`开头的类名作为图标。`link`是可选项，如果需要在 Web 或 PDF 版中支持链接，请填写此项。
+模板内置了 FontAwesome 图标字体，请使用`fa-`开头的类名作为图标。`link`是可选项，如果需要在 Web 或 PDF 版中支持链接，请填写此项。
 
 ## 颜色
 
-主题配色依照 [Open-Color](https://yeun.github.io/open-color/)。默认是灰色，可以通过 `_config.yml` 中的 `color` 进行修改：
+模板内置了一些主题配色，可以通过 `_config.yml` 中的 `color` 进行修改。默认是灰色 Gray。
 
 ```yaml
-color: cyan
+color: gray
 ```
+
+基于 [Open-Color](https://yeun.github.io/open-color/) 的配色：
+
+- red
+- pink
+- grape
+- violet
+- indigo
+- blue
+- cyan
+- teal
+- green
+- lime
+- yellow
+- orange
+
+基于 [Nord](https://www.nordtheme.com/) 的配色:
+
+- nord
 
 <img src="screenshots/resume-with-color.png" width="578" />
 

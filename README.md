@@ -78,15 +78,30 @@ FontAwesome iconfont is embedded, so use the `fa-` class name as icon. `link` is
 
 ## Colors
 
-Colors of the template is powered by [Open-Color](https://yeun.github.io/open-color/).
-
-The default color Gray. However, you can change it to other colors as you like.
-
-`color` may be specified in `_config.yml`:
+There are a set of colorscheme. `color` may be specified in `_config.yml`. The default colorscheme is gray.
 
 ```yaml
-color: cyan
+color: gray
 ```
+
+Colors powered by [Open-Color](https://yeun.github.io/open-color/):
+
+- red
+- pink
+- grape
+- violet
+- indigo
+- blue
+- cyan
+- teal
+- green
+- lime
+- yellow
+- orange
+
+Colors powered by [Nord](https://www.nordtheme.com/):
+
+- nord
 
 <img src="screenshots/resume-with-color.png" width="578" />
 
