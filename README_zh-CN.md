@@ -1,6 +1,7 @@
 # Crisp Minimal Résumé
 
 ![travis](https://travis-ci.org/crispgm/resume.svg)
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)](https://badge.fury.io/rb/jekyll-theme-minimal-resume)
 ![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
 <p align="center">
@@ -26,6 +27,8 @@
 * 简单的扩展方式
 
 ## 安装和使用
+
+### 本地模式
 
 1. 克隆（可以先 fork）
 
@@ -55,9 +58,39 @@
     jekyll build
     ```
 
-## Gem 模式
+### Gem 模式
 
-Gem 模式正在开发测试中，目前不推荐使用，敬请期待。
+1. 创建 `Gemfile`
+
+  ```
+  source "https://rubygems.org"
+
+  gem "jekyll-theme-minimal-resume"
+  ```
+
+  并执行，
+
+  ```shell
+  bundle install
+  ```
+
+2. 初始化 `_config.yml`
+
+    ```yaml
+    title: Résumé Title
+    baseurl: "/resume/"
+    theme: "jekyll-theme-minimal-resume"
+    ```
+
+3. 创建 `index.html`
+
+    ```yaml
+    ---
+    layout: resume
+    ---
+    ```
+
+4. 创建 `_data/resume.yml` 并填写你的简历数据。[示例数据可以参考这里](/_data/resume.ytml)。
 
 ## 数据格式
 
