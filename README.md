@@ -68,7 +68,7 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
   gem "jekyll-theme-minimal-resume"
   ```
 
-  And,
+  And then,
 
   ```shell
   bundle install
