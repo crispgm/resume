@@ -6,21 +6,21 @@ header {
   padding-bottom: 2.2rem;
 }
 
-#name-wrapper {
+.name-wrapper {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-#fullname {
+.title {
   font-size: 2.2rem;
 }
 
-#jobtitle {
+.sub-title {
   font-size: 1.2rem;
   margin-top: .8rem;
 }
 
-#contact {
+.contact {
   font-size: 1rem;
   padding-top: 1rem;
 }
@@ -44,12 +44,12 @@ header {
     padding-bottom: 1rem;
   }
 
-  #name-wrapper {
+  .name-wrapper {
     text-align: center;
     padding-bottom: 2rem;
   }
 
-  #contact {
+  .contact {
     padding-top: 1rem;
     border-top: .1rem solid $secondary-color;
   }

@@ -4,15 +4,15 @@ layout: default
 
     <div class="container">
       <header>
-        <div id="name-wrapper">
-          <div id="fullname">
+        <div class="name-wrapper">
+          <div id="fullname" class="title">
             {{ site.data.resume.name }}
           </div>
-          <div id="jobtitle">
+          <div id="jobtitle" class="sub-title">
             {{ site.data.resume.jobtitle }}
           </div>
         </div>
-        <div id="contact">
+        <div id="contact" class="contact">
           {% for item in site.data.resume.contact %}
           <div class="contact-item">
             {% if item.link %}
