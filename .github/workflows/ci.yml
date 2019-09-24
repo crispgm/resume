@@ -15,7 +15,7 @@ jobs:
     - name: 'Update Rubygems & Bundler'
       run: 'gem update --system --no-document && gem update bundler --no-document'
     - name: 'Install Bundler 2'
-      run: 'gem uninstall bundler && gem install bundler --no-document'
+      run: 'gem install bundler -v "2.0.1" --force'
     - name: 'Setup bundle'
       run: 'bundle install --jobs 4 --retry 3'
     - name: 'Run Test Suite'
