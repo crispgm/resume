@@ -1,0 +1,22 @@
+name: build
+
+on: push
+
+jobs:
+  ci:
+    name: run
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: 'Update Rubygems & Bundler'
+      run: 'gem update --system --no-document && gem update bundler --no-document'
+    - name: 'Install Bundler 2'
+      run: 'gem uninstall bundler && gem install bundler --no-document'
+    - name: 'Setup bundle'
+      run: 'bundle install --jobs 4 --retry 3'
+    - name: 'Run Test Suite'
+      run: 'bash script/cibuild'
