@@ -4,6 +4,9 @@ set -e
 
 echo "Building Jekyll site"
 
+# lint
+bundle exec scss-lint --config=.scss-lint.yml
+
 bundle exec jekyll build
 
 # build English version
