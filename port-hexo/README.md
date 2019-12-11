@@ -2,6 +2,8 @@
 
 Official Hexo port of Crisp Minimal Résumé.
 
+Notice: `color` is not supported in Hexo version.
+
 ## Usage
 
 1. Install Hexo
