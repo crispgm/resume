@@ -39,7 +39,7 @@ Notice: `color` is not supported in Hexo version.
     theme: hexo-crisp-minimal-resume
     ```
 
-    The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data under `resume`. See example in [/port-hexo/_config.yaml](hexo-port/_config.yml).
+    The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data under `resume`. See example in [/port-hexo/_config.yml](/_config.yml).
 
 5. Run and Debug
 
