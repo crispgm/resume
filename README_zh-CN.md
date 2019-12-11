@@ -20,6 +20,8 @@
 
 [示例](https://crispgm.github.io/resume/resume_zh-CN.html)
 
+我们现在为 Hexo 用户提供了官方移植的 [Hexo 版本](/hexo-port)。未来，我们将支持 Hugo 主题。
+
 ## 功能和特点
 
 * 简单、优雅、极简的设计
