@@ -12,3 +12,4 @@ exclude:
   - /screenshots
   - /fixtures
   - Rakefile
+  - port-hexo
