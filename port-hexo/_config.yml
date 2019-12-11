@@ -1,0 +1,56 @@
+title: Résumé
+resume:
+  name: YOUR NAME
+  jobtitle: Your Job Title
+  contact:
+    - icon: fa-envelope
+      text: youremail@example.com
+    - icon: fa-phone-square
+      text: your-phone-num
+    - icon: fa-globe
+      text: your-website.com
+      link: https://crispgm.github.io/resume/resume.html
+    - icon: fa-github
+      text: your-github
+      link: https://github.com/crispgm/resume
+  education:
+    - university: Your First University
+      duration: Jul 2011 - Dec 2012
+      location: Consectetur adipiscing elit
+      major: Lorem ipsum dolor sit amet
+    - university: Your Second University
+      duration: Aug 2007 - Jun 2011
+      location: Ut enim ad minim veniam
+      major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+  skills:
+    - title: Skill Group 1
+      items: Lorem, Ipsum, Dolor, Sit, Amet
+    - title: Skill Group 2
+      items: Consectetur, Adipiscing, Elit
+    - title: Skill Group 3
+      items: Sed do, Eiusmod, Tempor, Incididunt
+  experience:
+    - title: Job Title 1
+      duration: Apr 2016 - Now
+      company: Your 1st, Inc.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - title: Job Title 2
+      duration: Apr 2013 - Mar 2016
+      company: Your 2nd, Inc.
+      description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - title: Job Title 3
+      duration: Dec 2011 - Mar 2012
+      company: Your 3rd Co, Ltd.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  projects:
+    - name: Project Name 1
+      description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      contribution: Contributor.
+    - name: Project Name 2
+      description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      contribution: Creator and maintainer.
+  languages:
+    - name: English
+      proficiency: Work proficiency
+    - name: Mandarin Chinese
+      proficiency: Native

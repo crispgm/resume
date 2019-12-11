@@ -1,0 +1,153 @@
+/*
+ * Theme of Crisp Minimal Resume
+ * Copyright (c) David Zhang, 2019
+ */
+html {
+  width: 100%;
+  font-size: 14px; }
+
+body {
+  text-align: center;
+  width: 100%;
+  font-family: "Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  margin: 0;
+  color: #495057;
+  background-color: #fff; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    text-decoration: underline; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  max-width: 48rem;
+  text-align: left; }
+
+@media screen and (max-width: 48rem) {
+  html {
+    font-size: 12px; }
+
+  .container {
+    padding-left: .4rem;
+    padding-right: .4rem; } }
+@media print {
+  html {
+    font-size: 12px; }
+
+  .print {
+    display: none; } }
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #adb5bd;
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem; }
+
+.name-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.title {
+  font-size: 2.2rem; }
+
+.sub-title {
+  font-size: 1.2rem;
+  margin-top: .8rem; }
+
+.contact {
+  font-size: 1rem;
+  padding-top: 1rem; }
+
+.contact-item {
+  margin-top: .4rem; }
+  .contact-item:nth-child(1) {
+    margin-top: 0; }
+  .contact-item:a {
+    color: inherit;
+    text-decoration: none; }
+
+@media screen and (max-width: 48rem) {
+  header {
+    display: block;
+    padding-bottom: 1rem; }
+
+  .name-wrapper {
+    text-align: center;
+    padding-bottom: 2rem; }
+
+  .contact {
+    padding-top: 1rem;
+    border-top: 0.1rem solid #adb5bd; }
+
+  .contact-item {
+    padding-top: .2rem;
+    padding-left: .4rem; } }
+section {
+  display: flex;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  padding-left: .2rem;
+  border-bottom: 0.1rem solid #adb5bd;
+  hyphens: auto; }
+
+.section-title {
+  font-size: 1.6rem;
+  text-align: left;
+  min-width: 10rem; }
+
+.section-flex {
+  display: flex;
+  flex-wrap: wrap; }
+
+.block {
+  margin-bottom: 2rem; }
+  .block:last-child {
+    margin-bottom: 0; }
+
+.block-square {
+  width: 18rem; }
+  .block-square:nth-last-child(2) {
+    margin-bottom: 0; }
+
+.block-title {
+  font-size: 1.2rem;
+  margin-bottom: .4rem;
+  font-weight: bold; }
+
+.block-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #adb5bd; }
+
+.block-content {
+  font-size: 1rem;
+  line-height: 1.5; }
+
+@media screen and (max-width: 48rem) {
+  section {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem; }
+
+  .section-flex {
+    display: block; }
+
+  .block-square:nth-last-child(2) {
+    margin-bottom: 2rem; } }
+footer {
+  color: #adb5bd;
+  font-size: 1rem;
+  min-height: 3rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
