@@ -20,7 +20,7 @@
 
 [示例](https://crispgm.github.io/resume/resume_zh-CN.html)
 
-我们现在为 Hexo 用户提供了官方移植的 [Hexo 版本](/hexo-port/README.md)。未来，我们将支持 Hugo 主题。
+我们现在为 Hexo 用户提供了官方移植的 [Hexo 版本](/port-hexo/README.md)。未来，我们将支持 Hugo 主题。
 
 ## 功能和特点
 

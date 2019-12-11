@@ -20,7 +20,7 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 
 [DEMO](https://crispgm.github.io/resume/resume.html)
 
-We also provide an official [Hexo port](/hexo-port/README.md) for Hexo users. And Hugo will be supported later.
+We also provide an official [Hexo port](/port-hexo/README.md) for Hexo users. And Hugo will be supported later.
 
 ## Features
 
