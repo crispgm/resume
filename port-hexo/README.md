@@ -4,6 +4,8 @@ Official Hexo port of Crisp Minimal Résumé.
 
 Notice: `color` is not supported in Hexo version.
 
+[Hexo Demo](https://crispgm.github.io/resume-hexo-example/)
+
 ## Usage
 
 1. Install Hexo
