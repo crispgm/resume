@@ -3,7 +3,7 @@
 ![travis](https://travis-ci.org/crispgm/resume.svg)
 ![GitHub CI](https://github.com/crispgm/resume/workflows/build/badge.svg)
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg)](https://badge.fury.io/rb/jekyll-theme-minimal-resume)
-![powered-by-jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
+[![npm version](https://badge.fury.io/js/hexo-theme-crisp-minimal-resume.svg)](https://badge.fury.io/js/hexo-theme-crisp-minimal-resume)
 
 <p align="center">
   <img src="screenshots/resume-desktop.png" width="578" />
