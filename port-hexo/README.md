@@ -1,5 +1,7 @@
 # Crisp Minimal Résumé for Hexo
 
+[![npm version](https://badge.fury.io/js/hexo-theme-crisp-minimal-resume.svg)](https://badge.fury.io/js/hexo-theme-crisp-minimal-resume)
+
 Official Hexo port of Crisp Minimal Résumé.
 
 Notice: `color` is not supported in Hexo version.
