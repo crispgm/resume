@@ -20,13 +20,11 @@
 
 [English](/README.md) [简体中文](/README_zh-CN.md)
 
-This is a responsive minimal résumé template made by Crisp, powered by [Jekyll](http://jekyllrb.com/).
+This is a responsive minimal résumé template made by Crisp, powered by [Jekyll](http://jekyllrb.com/). And we also provide an official [Hexo port](/port-hexo/README.md) for Hexo users.
 
 You may config all the data in `yaml` and make it your own résumé. Then, you might use on GitHub Pages, your website, or wherever you want.
 
 [DEMO](https://crispgm.github.io/resume/resume.html)
-
-We also provide an official [Hexo port](/port-hexo/README.md) for Hexo users. And Hugo will be supported later.
 
 ## Features
 
