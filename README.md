@@ -6,7 +6,6 @@
 </p>
 
 <p align="center">
-  <img src="https://travis-ci.org/crispgm/resume.svg" alt="Travis CI" />
   <img src="https://github.com/crispgm/resume/workflows/build/badge.svg" alt="GitHub CI" />
   <a href="https://badge.fury.io/rb/jekyll-theme-minimal-resume">
     <img src="https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg" alt="Gem Version" />
