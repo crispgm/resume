@@ -21,7 +21,7 @@
 
 极简风格的响应式简历模板，基于 [Jekyll](http://jekyllrb.com/)，可以直接部署在 GitHub Pages 上。
 
-通过配置 `yaml` 文件，就可以完成简历，并部署在网站上或是输出成PDF。Whatever you want!
+通过配置 `yaml` 文件，就可以完成简历，并部署在网站上或是输出成 PDF。
 
 [示例](https://crispgm.github.io/resume/resume_zh-CN.html)
 
@@ -29,10 +29,10 @@
 
 ## 功能和特点
 
-* 简单、优雅、极简的设计
-* 桌面和移动友好，但桌面上的效果会更好
-* 支持输出 PDF 并且打印机友好
-* 简单的扩展方式
+- 简单、优雅、极简的设计
+- 桌面和移动友好，但桌面上的效果会更好
+- 支持输出 PDF 并且打印机友好
+- 简单的扩展方式
 
 ## 安装和使用
 
@@ -40,63 +40,64 @@
 
 1. 克隆（可以先 fork）
 
-    ```shell
-    git clone https://github.com/crispgm/resume.git
-    ```
+   ```shell
+   git clone https://github.com/crispgm/resume.git
+   ```
 
 2. 安装 Jekyll
 
-    ```shell
-    gem install jekyll
-    ```
+   ```shell
+   gem install jekyll
+   ```
 
 3. 配置简历数据
 
-    首先在 `_config.yml` 中配置 `baseurl`，如果需要部署在网站的话。在 `_data/resume.yml` 中填写教育（education）、技能（skills）、工作经验（experience）和项目（projects）。
+   首先在 `_config.yml` 中配置 `baseurl`，如果需要部署在网站的话。在 `_data/resume.yml` 中填写教育（education）、技能（skills）、工作经验（experience）和项目（projects）。
 
 4. 运行和预览
 
-    ```shell
-    jekyll serve
-    ```
+   ```shell
+   jekyll serve
+   ```
 
 5. 构建
 
-    ```shell
-    jekyll build
-    ```
+   ```shell
+   jekyll build
+   ```
 
 ### Gem 模式
 
 1. 创建 `Gemfile`
 
-  ```
-  source "https://rubygems.org"
+   ```shell
+   source "https://rubygems.org"
 
-  gem "jekyll-theme-minimal-resume"
-  ```
+   gem "jekyll-theme-minimal-resume"
+   ```
 
-  并执行，
+   并执行，
 
-  ```shell
-  bundle install
-  ```
+   ```shell
+   bundle install
+   ```
 
 2. 初始化 `_config.yml`
 
-    ```yaml
-    title: Résumé Title
-    baseurl: "/resume/"
-    theme: "jekyll-theme-minimal-resume"
-    ```
+   ```yaml
+   title: Résumé Title
+   baseurl: "/resume/"
+   theme: "jekyll-theme-minimal-resume"
+   ```
 
 3. 创建 `index.html`
 
-    ```yaml
-    ---
-    layout: resume
-    ---
-    ```
+   ```yaml
+   ---
+   layout: resume
+   ---
+
+   ```
 
 4. 创建 `_data/resume.yml` 并填写你的简历数据。[示例数据可以参考这里](/_data/resume.ytml)。
 
@@ -150,46 +151,40 @@ color: gray
 
 1. 在 `_data/resume.yml` 中增加段落，比如增加显示你的语言水平：
 
-  ```yaml
-  languages:
-    - name: 英语
-      proficiency: 工作熟练
-    - name: 中文
-      proficiency: 母语
-  ```
+   ```yaml
+   languages:
+     - name: 英语
+       proficiency: 工作熟练
+     - name: 中文
+       proficiency: 母语
+   ```
 
 2. 把读取代码加入 `_layouts/resume.html`:
 
-  ```html
-  <section id="languages">
-    <div class="section-title">
-      Language
-    </div>
-    <div class="section-content">
-      {% for lang in site.data.resume.languages %}
-      <div class="block">
-        <div class="block-title">
-          {{ lang.name }}
-        </div>
-        <div class="block-content">
-          {{ lang.proficiency }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-  ```
+   ```html
+   <section id="languages">
+     <div class="section-title">Language</div>
+     <div class="section-content">
+       {% for lang in site.data.resume.languages %}
+       <div class="block">
+         <div class="block-title">{{ lang.name }}</div>
+         <div class="block-content">{{ lang.proficiency }}</div>
+       </div>
+       {% endfor %}
+     </div>
+   </section>
+   ```
 
 ## Showcases
 
 欢迎在此提交你的简历。
 
-* [David Zhang](https://crispgm.com/resume/)
+- [David Zhang](https://crispgm.com/resume/)
 
 ## 捐助
 
-* [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
-* [PayPal](https://www.paypal.me/crispgm)
+- [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
+- [PayPal](https://www.paypal.me/crispgm)
 
 ## 协议
 

@@ -27,10 +27,10 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 
 ## Features
 
-* Simple, elegant, and minimal design
-* PC and mobile friendly, but it looks better on PC
-* PDF supports and print friendly
-* Flexible and extensible
+- Simple, elegant, and minimal design
+- PC and mobile friendly, but it looks better on PC
+- PDF supports and print friendly
+- Flexible and extensible
 
 ## Usage
 
@@ -38,63 +38,64 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 
 1. Clone the repo
 
-    ```shell
-    git clone https://github.com/crispgm/resume.git
-    ```
+   ```shell
+   git clone https://github.com/crispgm/resume.git
+   ```
 
 2. Install Jekyll
 
-    ```shell
-    gem install jekyll
-    ```
+   ```shell
+   gem install jekyll
+   ```
 
 3. Config your résumé data
 
-    The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data will be set in `_data/resume.yml`.
+   The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, **EDUCATION**, **SKILLS**, **EXPERIENCE**, and **PROJECTS** data will be set in `_data/resume.yml`.
 
 4. Run and Debug
 
-    ```shell
-    jekyll serve
-    ```
+   ```shell
+   jekyll serve
+   ```
 
 5. Build
 
-    ```shell
-    jekyll build
-    ```
+   ```shell
+   jekyll build
+   ```
 
 ### Gem-based Theme
 
 1. Create a `Gemfile`
 
-  ```
-  source "https://rubygems.org"
+   ```shell
+   source "https://rubygems.org"
 
-  gem "jekyll-theme-minimal-resume"
-  ```
+   gem "jekyll-theme-minimal-resume"
+   ```
 
-  And then,
+   And then,
 
-  ```shell
-  bundle install
-  ```
+   ```shell
+   bundle install
+   ```
 
 2. Init `_config.yml`
 
-    ```yaml
-    title: Résumé Title
-    baseurl: "/resume/"
-    theme: "jekyll-theme-minimal-resume"
-    ```
+   ```yaml
+   title: Résumé Title
+   baseurl: "/resume/"
+   theme: "jekyll-theme-minimal-resume"
+   ```
 
 3. Create a `index.html`
 
-    ```yaml
-    ---
-    layout: resume
-    ---
-    ```
+   ```yaml
+   ---
+   layout: resume
+   ---
+
+   ```
 
 4. Create `_data/resume.yml` and fill in your resume data. [Example data is available here](/_data/resume.ytml).
 
@@ -148,46 +149,40 @@ Colors powered by [Nord](https://www.nordtheme.com/):
 
 1. Add new section in `_data/resume.yml`
 
-  ```yaml
-  languages:
-    - name: English
-      proficiency: Professional working proficiency
-    - name: Mandarin Chinese
-      proficiency: Native or bilingual proficiency
-  ```
+   ```yaml
+   languages:
+     - name: English
+       proficiency: Professional working proficiency
+     - name: Mandarin Chinese
+       proficiency: Native or bilingual proficiency
+   ```
 
 2. Add section to `_layouts/resume.html`:
 
-  ```html
-  <section id="languages">
-    <div class="section-title">
-      Language
-    </div>
-    <div class="section-content">
-      {% for lang in site.data.resume.languages %}
-      <div class="block">
-        <div class="block-title">
-          {{ lang.name }}
-        </div>
-        <div class="block-content">
-          {{ lang.proficiency }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-  ```
+   ```html
+   <section id="languages">
+     <div class="section-title">Language</div>
+     <div class="section-content">
+       {% for lang in site.data.resume.languages %}
+       <div class="block">
+         <div class="block-title">{{ lang.name }}</div>
+         <div class="block-content">{{ lang.proficiency }}</div>
+       </div>
+       {% endfor %}
+     </div>
+   </section>
+   ```
 
 ## Showcases
 
 Feel free to add yours here.
 
-* [David Zhang](https://crispgm.com/resume/)
+- [David Zhang](https://crispgm.com/resume/)
 
 ## Donation
 
-* [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
-* [PayPal](https://www.paypal.me/crispgm)
+- [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
+- [PayPal](https://www.paypal.me/crispgm)
 
 ## License
 
