@@ -8,7 +8,7 @@ Official Hexo port of Crisp Minimal Résumé.
 
 Notice:
 
-- **For Hexo 5 support, please read [this section](/README.md#Hexo5).**
+- **For Hexo 5 support, please read [this section](#Hexo-5-Compatibility).**
 - `color` is not supported in Hexo version.
 
 ## Usage
@@ -54,7 +54,7 @@ Notice:
    hexo server
    ```
 
-### Hexo 5
+### Hexo 5 Compatibility
 
 Hexo 5 is not supported yet. See detail in [issue#9](https://github.com/crispgm/resume/issues/9). Fortunately, there is a workaround from @arthuroy to make it work.
 
