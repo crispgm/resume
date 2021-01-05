@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name                    = "jekyll-theme-minimal-resume"
-  spec.version                 = "3.1.1"
+  spec.version                 = "3.1.2"
   spec.authors                 = ["David Zhang"]
 
   spec.summary                 = %q{A minimalist resume template for Jekyll.}
@@ -13,8 +13,9 @@ Gem::Specification.new do |spec|
     f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
 
-  spec.required_ruby_version = '~> 2.3'
+  spec.required_ruby_version = '>= 2.3'
 
+  spec.add_runtime_dependency "webrick"
   spec.add_runtime_dependency "jekyll", "~> 3.8"
 
   spec.add_development_dependency "bundler", ">= 1.12.0", "< 3.0.0"
