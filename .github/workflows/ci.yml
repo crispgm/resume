@@ -13,7 +13,7 @@ jobs:
         with:
           fail-fast: true
       - name: Set up Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
       - name: "Update Rubygems & Bundler"
