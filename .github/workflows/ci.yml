@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby: [3.0.x, 2.6.x]
+        ruby: [3.0.0, 2.6.x]
     steps:
       - uses: actions/checkout@master
       - uses: mstachniuk/ci-skip@v1
