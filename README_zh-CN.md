@@ -184,7 +184,6 @@ color: gray
 ## 捐助
 
 - [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
-- [PayPal](https://www.paypal.me/crispgm)
 
 ## 协议
 

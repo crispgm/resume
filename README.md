@@ -182,7 +182,6 @@ Feel free to add yours here.
 ## Donation
 
 - [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
-- [PayPal](https://www.paypal.me/crispgm)
 
 ## License
 

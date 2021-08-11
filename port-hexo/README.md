@@ -71,7 +71,6 @@ and run `npm install`, then `npm run server`.
 ## Donation
 
 - [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
-- [PayPal](https://www.paypal.me/crispgm)
 
 ## License
 
